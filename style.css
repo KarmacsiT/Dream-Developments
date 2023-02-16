@@ -147,3 +147,21 @@ button {
     border: #3882FA 2px solid;
     border-radius: 12px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author {
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: 55.7%;
+}
