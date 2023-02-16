@@ -119,3 +119,31 @@ button {
     height: 100%;
     object-fit: contain;
 }
+
+.showcase-employees {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-title{
+    font-size: 48px;
+    text-align: center;
+}
+
+.employee-table {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.employee {
+    text-align: center;
+    font-weight: bold;
+}
+
+.employee img{
+    width: 250px;
+    height: 250px;
+    border: #3882FA 2px solid;
+    border-radius: 12px;
+}
