@@ -207,5 +207,10 @@ button {
     border:#E5E7EB 2px solid;
     min-width: 130px;
     padding: 5px 0;
+}
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
 }
