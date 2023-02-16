@@ -48,6 +48,7 @@ body {
 }
 
 .introduction-button {
+    font-weight: bold;
     margin: 20px 0;
     max-width: 150px;
 }
@@ -82,7 +83,6 @@ button {
     border-radius: 12px;
     padding: 12px 40px;
     font-size: 18px;
-    font-weight: bold;
     border: 0;
 }
 
@@ -164,4 +164,48 @@ button {
     font-weight: bold;
     color: #1F2937;
     margin-left: 55.7%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    background-color: #3882FA;
+    padding: 50px 90px;
+    margin: 30px;
+    min-width: 40%;
+    border-radius: 12px;
+    color: #F9FAF8;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.banner-left p{
+    margin: 0;
+}
+.banner-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.banner-button {
+    border:#E5E7EB 2px solid;
+    min-width: 130px;
+    padding: 5px 0;
+
 }
