@@ -341,7 +341,7 @@ button {
     width: 200%;
     height: 100%;
     object-fit: cover;
-    transition: .2s;
+    transition: .5s;
 }
 
 .image-box:hover {
@@ -383,18 +383,35 @@ button {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    color: #E5E7EB;
+}
+
+.highlight>a {
+    padding: 0 5px;
+    box-shadow: inset 0 0 0 0 #dce9e7;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.highlight>a:hover {
+    box-shadow: inset 400px 0 0 0 #dce9e7;
+    color: #21242C;
 }
 
 .employee img {
-    width: 250px;
+    object-fit: cover;
+    width: 100%;
     height: 250px;
-    border: #219787 2px solid;
     border-radius: 12px;
+    border: #219787 2px solid;
     transition: transform .2s;
 }
 
 .employee img:hover {
-    transform: scale(1.25);
+    transform: scale(1.15) translateY(-13px);
+}
+
+.employee a {
+    margin: 16px 0;
 }
 
 .quote {
