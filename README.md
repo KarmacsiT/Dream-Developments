@@ -1,1 +1,2 @@
-# odin-landingpage
+Dream Developments is a landing page passion project for an imaginary car performance and tuning shop.
+The webpage utilizes a combination of blues and grays to extend upon the classic dark mode design and plenty of CSS effects to lend a pleasing, modern experience.
